@@ -1,12 +1,10 @@
 import DashboardLayout from "./layout/DashboardLayout";
 import Dashboard from "./pages/Dashboard";
 
-function App() {
+export default function App() {
   return (
     <DashboardLayout>
       <Dashboard />
     </DashboardLayout>
   );
 }
-
-export default App;
